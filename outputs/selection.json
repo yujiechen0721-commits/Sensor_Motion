@@ -1,0 +1,7 @@
+{
+ "win_sec": 2,
+ "normalize": false,
+ "model": "HistGradientBoosting",
+ "smooth_sec": 80,
+ "smooth_k": 80
+}

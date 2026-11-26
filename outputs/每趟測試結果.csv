@@ -1,0 +1,41 @@
+﻿trip,實際,位置,手機,日期,視窗數,MRT,bus,car,預測,是否正確
+1022_MRT_pocket,MRT,pocket,SM-A076B,2026-10-22,970,0.633,0.14,0.227,MRT,True
+1022_MRT_pocket2,MRT,pocket,SM-A076B,2026-10-22,759,0.559,0.238,0.203,MRT,True
+1114_MRT_hand,MRT,hand,CPH2697,2026-11-14,1125,0.813,0.128,0.059,MRT,True
+1114_car_bag1,car,bag,iPhone 17 Pro Max,2026-11-14,121,0.017,0.245,0.738,car,True
+1114_car_bag2,car,bag,iPhone 17 Pro Max,2026-11-14,309,0.007,0.185,0.808,car,True
+1114_car_bag4,car,bag,iPhone 17 Pro Max,2026-11-14,211,0.251,0.313,0.436,car,True
+1114_car_bag6,car,bag,iPhone 17 Pro Max,2026-11-14,348,0.009,0.424,0.567,car,True
+1114_car_hand3,car,hand,iPhone 17 Pro Max,2026-11-14,264,0.01,0.186,0.804,car,True
+1114_car_hand7,car,hand,iPhone 17 Pro Max,2026-11-14,458,0.016,0.487,0.497,car,True
+1114_car_pocket5,car,pocket,iPhone 17 Pro Max,2026-11-14,319,0.025,0.464,0.511,car,True
+1118_bus_bag2,bus,bag,iPhone 17 Pro Max,2026-11-18,128,0.17,0.486,0.344,bus,True
+1118_bus_bag3,bus,bag,iPhone 17 Pro Max,2026-11-18,142,0.189,0.775,0.036,bus,True
+1118_bus_hand2,bus,hand,iPhone 17 Pro Max,2026-11-18,70,0.467,0.274,0.259,MRT,False
+1118_bus_hand_v2,bus,hand,iPhone 17 Pro Max,2026-11-18,96,0.155,0.531,0.314,bus,True
+1118_bus_pocket2,bus,pocket,iPhone 17 Pro Max,2026-11-18,140,0.516,0.428,0.056,MRT,False
+1118_bus_pocket3,bus,pocket,iPhone 17 Pro Max,2026-11-18,146,0.254,0.693,0.054,bus,True
+1119_MRT_bag,MRT,bag,iPhone 17 Pro Max,2026-11-18,92,0.861,0.133,0.006,MRT,True
+1119_MRT_bag2,MRT,bag,iPhone 17 Pro Max,2026-11-18,152,0.385,0.584,0.031,bus,False
+1119_MRT_bag3,MRT,bag,iPhone 17 Pro Max,2026-11-18,133,0.222,0.355,0.423,car,False
+1119_MRT_hand,MRT,hand,iPhone 17 Pro Max,2026-11-18,93,0.656,0.076,0.268,MRT,True
+1119_MRT_hand2,MRT,hand,iPhone 17 Pro Max,2026-11-18,45,0.662,0.054,0.284,MRT,True
+1119_MRT_hand3,MRT,hand,iPhone 17 Pro Max,2026-11-18,137,0.551,0.103,0.346,MRT,True
+1119_MRT_hand4,MRT,hand,iPhone 17 Pro Max,2026-11-18,101,0.392,0.136,0.472,car,False
+1119_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,2026-11-18,115,0.746,0.14,0.115,MRT,True
+1119_MRT_pocket2,MRT,pocket,iPhone 17 Pro Max,2026-11-18,56,0.683,0.297,0.02,MRT,True
+1119_MRT_pocket3,MRT,pocket,iPhone 17 Pro Max,2026-11-18,137,0.374,0.173,0.453,car,False
+1119_bus_bag,bus,bag,iPhone 17 Pro Max,2026-11-18,134,0.156,0.618,0.226,bus,True
+1119_bus_bag2,bus,bag,iPhone 17 Pro Max,2026-11-19,138,0.243,0.637,0.121,bus,True
+1119_bus_bag3,bus,bag,iPhone 17 Pro Max,2026-11-19,129,0.231,0.636,0.133,bus,True
+1119_bus_bag4,bus,bag,iPhone 17 Pro Max,2026-11-19,70,0.108,0.89,0.002,bus,True
+1119_bus_bag_v2,bus,bag,iPhone 17 Pro Max,2026-11-19,107,0.111,0.412,0.476,car,False
+1119_bus_hand,bus,hand,iPhone 17 Pro Max,2026-11-18,83,0.206,0.447,0.347,bus,True
+1119_bus_hand2,bus,hand,iPhone 17 Pro Max,2026-11-18,55,0.617,0.28,0.102,MRT,False
+1119_bus_hand2_v2,bus,hand,iPhone 17 Pro Max,2026-11-19,108,0.613,0.162,0.226,MRT,False
+1119_bus_hand_v2,bus,hand,iPhone 17 Pro Max,2026-11-19,129,0.389,0.272,0.339,MRT,False
+1119_bus_pocket,bus,pocket,iPhone 17 Pro Max,2026-11-18,133,0.239,0.339,0.422,car,False
+1119_bus_pocket2,bus,pocket,iPhone 17 Pro Max,2026-11-19,160,0.174,0.596,0.23,bus,True
+1119_bus_pocket3,bus,pocket,iPhone 17 Pro Max,2026-11-19,172,0.237,0.64,0.123,bus,True
+1119_bus_pocket4,bus,pocket,iPhone 17 Pro Max,2026-11-19,141,0.191,0.588,0.22,bus,True
+1119_bus_pocket_v2,bus,pocket,iPhone 17 Pro Max,2026-11-19,132,0.336,0.456,0.208,bus,True

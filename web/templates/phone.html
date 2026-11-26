@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>手機網頁即時辨識</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<nav class="nav wrap"><a href="/">上傳辨識</a><a href="/live">即時辨識</a><a href="/phone">手機網頁即時</a><a href="/about">模型成效</a></nav>
+<header class="wrap"><h1>手機網頁即時辨識</h1>
+<p class="lead">直接用這支手機的瀏覽器讀取感測器並即時辨識，不需要安裝 Sensor Logger。</p></header>
+<main class="wrap">
+  <section class="card">
+    <div id="env" class="meta">檢查中…</div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+      <button class="btn" id="startBtn">開始</button><button class="btn" id="stopBtn" disabled>停止</button><button class="btn" id="csvBtn" disabled>下載原始 CSV</button>
+    </div>
+    <p id="msg" class="status"></p>
+  </section>
+  <section class="card">
+    <div id="liveStatus" class="status">尚未開始</div>
+    <div class="verdict"><div class="badge" id="liveBadge" style="background:#cdb893">—</div><div class="meta" id="liveMeta">按「開始」後，請把手機放進口袋或包包，保持螢幕開啟</div></div>
+    <div id="liveBars"></div>
+    <h3>判斷紀錄</h3><div class="timeline" id="liveTl"></div>
+    <div class="legend"><span><b style="background:#5c4033"></b>捷運</span><span><b style="background:#8a5a3c"></b>公車</span><span><b style="background:#a8582a"></b>汽車</span></div>
+  </section>
+  <section class="card note"><h2>使用說明</h2>
+    <ol class="steps">
+      <li>電腦用 HTTPS 模式啟動：<code>$env:HOST="0.0.0.0"; $env:PORT=5055; $env:HTTPS="1"; python web/app.py</code></li>
+      <li>手機和電腦連同一個網路，手機瀏覽器開終端機顯示的 <code>https://電腦IP:5055/phone</code>。第一次會跳「連線不安全」，選「進階 → 繼續前往」（自簽憑證，只在你自己的網路內使用）。</li>
+      <li>按「開始」並允許動作感測器權限（iPhone 會跳詢問）。開始後前 30 秒不辨識，約 40 秒後出現第一個判斷。</li>
+      <li>錄製中螢幕要保持亮著、頁面留在前景，切到背景會自動停止。</li>
+    </ol>
+    <p class="meta">瀏覽器讀到的感測器數值和 Sensor Logger 不完全相同（取樣、濾波不同），結果可能比檔案上傳不準。建議下載原始 CSV 留作紀錄，並與 Sensor Logger 錄的結果比對。</p>
+  </section>
+</main>
+<script src="{{ url_for('static', filename='phone.js') }}"></script>
+</body></html>

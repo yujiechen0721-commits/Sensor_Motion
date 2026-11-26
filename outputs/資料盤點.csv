@@ -1,0 +1,154 @@
+﻿trip,cls,position,device,platform,start,day,minutes,session,split
+1006_MRT_pocket2,MRT,pocket,CPH2697,android,2026-10-06 10:21:30,2026-10-06,10.6,S01,train
+1006_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-10-06 12:32:11,2026-10-06,10.7,S02,train
+1006_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-10-06 12:49:15,2026-10-06,9.0,S02,train
+1007_MRT_hand,MRT,hand,CPH2697,android,2026-10-07 01:16:52,2026-10-07,3.3,S03,train
+1012_MRT_pocket,MRT,pocket,CPH2697,android,2026-10-12 06:18:14,2026-10-12,2.2,S04,train
+1012_MRT_hand,MRT,hand,CPH2697,android,2026-10-12 10:15:08,2026-10-12,3.0,S05,train
+1013_MRT_pocket,MRT,pocket,SM-A076B,android,2026-10-13 10:42:29,2026-10-13,10.9,S06,train
+1013_MRT_hand,MRT,hand,CPH2697,android,2026-10-13 10:43:13,2026-10-13,2.2,S06,train
+1014_MRT_pocket,MRT,pocket,SM-A076B,android,2026-10-14 01:17:50,2026-10-14,17.2,S07,train
+1015_MRT_hand,MRT,hand,SM-A076B,android,2026-10-15 01:21:36,2026-10-15,17.2,S08,train
+1016_MRT_hand,MRT,hand,SM-A076B,android,2026-10-16 01:22:36,2026-10-16,16.3,S09,train
+1017_MRT_hand,MRT,hand,CPH2697,android,2026-10-17 01:21:31,2026-10-17,1.7,S10,train
+1019_MRT_hand,MRT,hand,CPH2697,android,2026-10-19 06:18:24,2026-10-19,1.5,S11,train
+1020_MRT_hand,MRT,hand,CPH2697,android,2026-10-20 01:22:03,2026-10-20,16.4,S12,train
+1021_MRT_hand,MRT,hand,CPH2697,android,2026-10-21 01:18:12,2026-10-21,2.1,S13,train
+1022_MRT_pocket2,MRT,pocket,SM-A076B,android,2026-10-22 06:23:13,2026-10-22,17.0,S14,test
+1022_MRT_pocket,MRT,pocket,SM-A076B,android,2026-10-22 10:12:55,2026-10-22,17.8,S15,test
+1027_MRT_hand,MRT,hand,CPH2697,android,2026-10-27 01:18:16,2026-10-27,16.6,S16,train
+1028_MRT_hand,MRT,hand,CPH2697,android,2026-10-28 05:41:28,2026-10-28,6.3,S17,train
+1030_MRT_hand,MRT,hand,SM-A076B,android,2026-10-30 10:21:26,2026-10-30,15.8,S18,train
+1112_MRT_hand,MRT,hand,CPH2697,android,2026-11-12 09:23:51,2026-11-12,16.9,S19,train
+1114_MRT_hand,MRT,hand,CPH2697,android,2026-11-14 02:27:58,2026-11-14,19.8,S20,test
+1116_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-11-15 23:00:09,2026-11-15,3.4,S21,train
+1116_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-15 23:04:13,2026-11-15,2.8,S21,train
+1116_MRT_bag,MRT,bag,iPhone 17 Pro Max,ios,2026-11-15 23:07:33,2026-11-15,4.7,S21,train
+1116_MRT_hand2,MRT,hand,iPhone 17 Pro Max,ios,2026-11-15 23:12:28,2026-11-15,3.2,S21,train
+1116_MRT_hand3,MRT,hand,iPhone 17 Pro Max,ios,2026-11-15 23:24:46,2026-11-15,2.7,S21,train
+1116_MRT_bag2,MRT,bag,iPhone 17 Pro Max,ios,2026-11-15 23:28:12,2026-11-15,4.2,S21,train
+1116_MRT_pocket2,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-15 23:33:04,2026-11-15,3.6,S21,train
+1116_MRT_hand4,MRT,hand,iPhone 17 Pro Max,ios,2026-11-15 23:36:46,2026-11-15,1.9,S21,train
+1117_MRT_hand2_v2,MRT,hand,iPhone 17 Pro Max,ios,2026-11-17 01:20:30,2026-11-17,1.9,S22,train
+1117_MRT_bag,MRT,bag,iPhone 17 Pro Max,ios,2026-11-17 01:22:49,2026-11-17,4.8,S22,train
+1117_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-11-17 01:28:09,2026-11-17,1.7,S22,train
+1117_MRT_hand2,MRT,hand,iPhone 17 Pro Max,ios,2026-11-17 12:19:56,2026-11-17,3.1,S23,train
+1117_MRT_bag2,MRT,bag,iPhone 17 Pro Max,ios,2026-11-17 12:23:36,2026-11-17,2.9,S23,train
+1117_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-17 12:27:05,2026-11-17,2.7,S23,train
+1117_MRT_hand3,MRT,hand,iPhone 17 Pro Max,ios,2026-11-17 12:35:11,2026-11-17,3.0,S23,train
+1117_MRT_bag3,MRT,bag,iPhone 17 Pro Max,ios,2026-11-17 12:38:45,2026-11-17,3.5,S23,train
+1117_MRT_pocket2,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-17 12:42:44,2026-11-17,2.6,S23,train
+1118_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-11-17 23:09:48,2026-11-17,2.8,S24,train
+1118_MRT_bag,MRT,bag,iPhone 17 Pro Max,ios,2026-11-17 23:13:08,2026-11-17,2.0,S24,train
+1118_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-17 23:15:33,2026-11-17,2.3,S24,train
+1119_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-11-18 23:03:42,2026-11-18,2.6,S25,test
+1119_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-18 23:06:39,2026-11-18,2.9,S25,test
+1119_MRT_bag,MRT,bag,iPhone 17 Pro Max,ios,2026-11-18 23:09:57,2026-11-18,2.6,S25,test
+1119_MRT_hand2,MRT,hand,iPhone 17 Pro Max,ios,2026-11-18 23:14:06,2026-11-18,1.8,S25,test
+1119_MRT_pocket2,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-18 23:16:14,2026-11-18,2.0,S25,test
+1119_MRT_bag2,MRT,bag,iPhone 17 Pro Max,ios,2026-11-18 23:18:35,2026-11-18,3.6,S25,test
+1119_MRT_hand3,MRT,hand,iPhone 17 Pro Max,ios,2026-11-18 23:28:54,2026-11-18,3.3,S25,test
+1119_MRT_pocket3,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-18 23:32:39,2026-11-18,3.3,S25,test
+1119_MRT_bag3,MRT,bag,iPhone 17 Pro Max,ios,2026-11-18 23:36:19,2026-11-18,3.2,S25,test
+1119_MRT_hand4,MRT,hand,iPhone 17 Pro Max,ios,2026-11-18 23:40:09,2026-11-18,2.7,S25,test
+1120_MRT_hand,MRT,hand,iPhone 17 Pro Max,ios,2026-11-20 00:58:03,2026-11-20,4.9,S26,train
+1120_MRT_pocket,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-20 01:03:42,2026-11-20,3.3,S26,train
+1120_MRT_bag,MRT,bag,iPhone 17 Pro Max,ios,2026-11-20 01:07:21,2026-11-20,3.2,S26,train
+1120_MRT_hand2,MRT,hand,iPhone 17 Pro Max,ios,2026-11-20 01:16:19,2026-11-20,2.7,S26,train
+1120_MRT_pocket2,MRT,pocket,iPhone 17 Pro Max,ios,2026-11-20 01:19:27,2026-11-20,2.5,S26,train
+1120_MRT_bag2,MRT,bag,iPhone 17 Pro Max,ios,2026-11-20 01:22:14,2026-11-20,3.8,S26,train
+1007_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-10-07 10:09:32,2026-10-07,42.7,S27,train
+1113_bus_bag1,bus,bag,iPhone 17 Pro Max,ios,2026-11-12 04:05:16,2026-11-12,10.2,S28,train
+1113_bus_hand3,bus,hand,iPhone 17 Pro Max,ios,2026-11-12 10:16:11,2026-11-12,14.0,S29,train
+1113_bus_bag4,bus,bag,iPhone 17 Pro Max,ios,2026-11-13 10:05:35,2026-11-13,15.5,S30,train
+1113_bus_bag7,bus,bag,iPhone 17 Pro Max,ios,2026-11-13 10:21:10,2026-11-13,37.2,S30,train
+1113_bus_bag8,bus,bag,iPhone 17 Pro Max,ios,2026-11-13 10:58:23,2026-11-13,34.5,S31,train
+1113_bus_bag2,bus,bag,iPhone 17 Pro Max,ios,2026-11-13 11:32:56,2026-11-13,3.2,S32,train
+1113_bus_pocket6,bus,pocket,iPhone 17 Pro Max,ios,2026-11-13 11:36:47,2026-11-13,7.6,S32,train
+1113_bus_hand5,bus,hand,iPhone 17 Pro Max,ios,2026-11-13 11:47:48,2026-11-13,6.9,S32,train
+1114_bus_pocket,bus,pocket,CPH2697,android,2026-11-14 02:17:14,2026-11-14,4.0,S33,train
+1116_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-11-15 22:50:33,2026-11-15,4.1,S34,train
+1116_bus_hand,bus,hand,iPhone 17 Pro Max,ios,2026-11-15 22:54:45,2026-11-15,1.8,S34,train
+1116_bus_hand2,bus,hand,iPhone 17 Pro Max,ios,2026-11-16 10:02:34,2026-11-16,6.7,S35,train
+1116_bus_hand3,bus,hand,iPhone 17 Pro Max,ios,2026-11-16 10:10:21,2026-11-16,3.8,S35,train
+1116_bus_bag2,bus,bag,iPhone 17 Pro Max,ios,2026-11-16 10:14:52,2026-11-16,3.7,S35,train
+1116_bus_bag3,bus,bag,iPhone 17 Pro Max,ios,2026-11-16 10:19:19,2026-11-16,4.1,S35,train
+1116_bus_pocket,bus,pocket,iPhone 17 Pro Max,ios,2026-11-16 10:24:11,2026-11-16,5.2,S35,train
+1116_bus_pocket2,bus,pocket,iPhone 17 Pro Max,ios,2026-11-16 10:29:40,2026-11-16,2.9,S35,train
+1117_bus_hand,bus,hand,iPhone 17 Pro Max,ios,2026-11-17 00:46:59,2026-11-17,6.2,S36,train
+1117_bus_pocket,bus,pocket,iPhone 17 Pro Max,ios,2026-11-17 04:15:17,2026-11-17,2.4,S37,train
+1117_bus_hand2,bus,hand,iPhone 17 Pro Max,ios,2026-11-17 04:17:45,2026-11-17,3.7,S37,train
+1117_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-11-17 04:21:29,2026-11-17,2.4,S37,train
+1117_bus_hand3,bus,hand,iPhone 17 Pro Max,ios,2026-11-17 10:04:51,2026-11-17,2.5,S38,train
+1117_bus_bag2,bus,bag,iPhone 17 Pro Max,ios,2026-11-17 10:07:53,2026-11-17,2.7,S38,train
+1118_bus_hand,bus,hand,iPhone 17 Pro Max,ios,2026-11-17 22:50:05,2026-11-17,2.3,S39,train
+1118_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-11-17 22:52:48,2026-11-17,3.3,S39,train
+1118_bus_pocket,bus,pocket,iPhone 17 Pro Max,ios,2026-11-17 22:56:41,2026-11-17,3.3,S39,train
+1118_bus_hand_v2,bus,hand,iPhone 17 Pro Max,ios,2026-11-18 10:05:16,2026-11-18,2.6,S40,test
+1118_bus_bag2,bus,bag,iPhone 17 Pro Max,ios,2026-11-18 10:08:17,2026-11-18,3.2,S40,test
+1118_bus_pocket2,bus,pocket,iPhone 17 Pro Max,ios,2026-11-18 10:13:53,2026-11-18,3.4,S40,test
+1118_bus_hand2,bus,hand,iPhone 17 Pro Max,ios,2026-11-18 10:17:50,2026-11-18,2.2,S40,test
+1118_bus_bag3,bus,bag,iPhone 17 Pro Max,ios,2026-11-18 10:26:40,2026-11-18,3.4,S40,test
+1118_bus_pocket3,bus,pocket,iPhone 17 Pro Max,ios,2026-11-18 10:30:29,2026-11-18,3.5,S40,test
+1119_bus_hand,bus,hand,iPhone 17 Pro Max,ios,2026-11-18 22:46:34,2026-11-18,2.4,S41,test
+1119_bus_pocket,bus,pocket,iPhone 17 Pro Max,ios,2026-11-18 22:49:19,2026-11-18,3.2,S41,test
+1119_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-11-18 22:52:50,2026-11-18,3.3,S41,test
+1119_bus_hand2,bus,hand,iPhone 17 Pro Max,ios,2026-11-18 22:56:23,2026-11-18,1.9,S41,test
+1119_bus_hand_v2,bus,hand,iPhone 17 Pro Max,ios,2026-11-19 10:00:46,2026-11-19,3.2,S42,test
+1119_bus_bag_v2,bus,bag,iPhone 17 Pro Max,ios,2026-11-19 10:05:40,2026-11-19,2.8,S42,test
+1119_bus_pocket_v2,bus,pocket,iPhone 17 Pro Max,ios,2026-11-19 10:13:32,2026-11-19,3.2,S42,test
+1119_bus_hand2_v2,bus,hand,iPhone 17 Pro Max,ios,2026-11-19 10:17:06,2026-11-19,2.8,S42,test
+1119_bus_bag2,bus,bag,iPhone 17 Pro Max,ios,2026-11-19 10:20:35,2026-11-19,3.3,S42,test
+1119_bus_pocket2,bus,pocket,iPhone 17 Pro Max,ios,2026-11-19 10:24:15,2026-11-19,3.7,S42,test
+1119_bus_pocket3,bus,pocket,iPhone 17 Pro Max,ios,2026-11-19 10:28:23,2026-11-19,3.9,S42,test
+1119_bus_bag3,bus,bag,iPhone 17 Pro Max,ios,2026-11-19 10:33:04,2026-11-19,3.2,S42,test
+1119_bus_pocket4,bus,pocket,iPhone 17 Pro Max,ios,2026-11-19 10:36:53,2026-11-19,3.4,S42,test
+1119_bus_bag4,bus,bag,iPhone 17 Pro Max,ios,2026-11-19 10:40:53,2026-11-19,2.2,S42,test
+1120_bus_hand,bus,hand,iPhone 17 Pro Max,ios,2026-11-20 01:39:14,2026-11-20,4.6,S43,train
+1120_bus_pocket,bus,pocket,iPhone 17 Pro Max,ios,2026-11-20 01:44:15,2026-11-20,2.2,S43,train
+1120_bus_bag,bus,bag,iPhone 17 Pro Max,ios,2026-11-20 01:46:45,2026-11-20,3.4,S43,train
+1114_car_bag4,car,bag,iPhone 17 Pro Max,ios,2026-11-14 06:51:48,2026-11-14,4.5,S44,test
+1114_car_bag6,car,bag,iPhone 17 Pro Max,ios,2026-11-14 06:56:55,2026-11-14,6.8,S44,test
+1114_car_pocket5,car,pocket,iPhone 17 Pro Max,ios,2026-11-14 07:04:32,2026-11-14,6.3,S44,test
+1114_car_hand7,car,hand,iPhone 17 Pro Max,ios,2026-11-14 08:26:59,2026-11-14,8.7,S45,test
+1114_car_hand3,car,hand,iPhone 17 Pro Max,ios,2026-11-14 08:37:15,2026-11-14,5.4,S45,test
+1114_car_bag2,car,bag,iPhone 17 Pro Max,ios,2026-11-14 08:42:46,2026-11-14,6.2,S45,test
+1114_car_bag1,car,bag,iPhone 17 Pro Max,ios,2026-11-14 08:48:58,2026-11-14,3.0,S45,test
+1120_car_hand,car,hand,iPhone 17 Pro Max,ios,2026-11-20 05:03:25,2026-11-20,2.6,S46,train
+1120_car_bag,car,bag,iPhone 17 Pro Max,ios,2026-11-20 05:06:08,2026-11-20,2.1,S46,train
+1120_car_pocket,car,pocket,iPhone 17 Pro Max,ios,2026-11-20 05:08:27,2026-11-20,1.8,S46,train
+1120_car_hand2,car,hand,iPhone 17 Pro Max,ios,2026-11-20 05:10:35,2026-11-20,2.2,S46,train
+1120_car_bag2,car,bag,iPhone 17 Pro Max,ios,2026-11-20 05:12:52,2026-11-20,2.0,S46,train
+1121_car_hand,car,hand,iPhone 17 Pro Max,ios,2026-11-21 04:08:30,2026-11-21,2.3,S47,train
+1121_car_bag,car,bag,iPhone 17 Pro Max,ios,2026-11-21 04:11:18,2026-11-21,3.1,S47,train
+1121_car_pocket,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 04:14:40,2026-11-21,3.7,S47,train
+1121_car_hand2,car,hand,iPhone 17 Pro Max,ios,2026-11-21 04:18:41,2026-11-21,4.1,S47,train
+1121_car_bag2,car,bag,iPhone 17 Pro Max,ios,2026-11-21 04:23:11,2026-11-21,3.4,S47,train
+1121_car_pocket2,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 04:26:55,2026-11-21,3.4,S47,train
+1121_car_hand3,car,hand,iPhone 17 Pro Max,ios,2026-11-21 04:30:46,2026-11-21,3.4,S47,train
+1121_car_bag3,car,bag,iPhone 17 Pro Max,ios,2026-11-21 04:34:34,2026-11-21,3.5,S47,train
+1121_car_hand4,car,hand,iPhone 17 Pro Max,ios,2026-11-21 06:05:20,2026-11-21,5.3,S48,train
+1121_car_bag4,car,bag,iPhone 17 Pro Max,ios,2026-11-21 06:11:35,2026-11-21,3.3,S48,train
+1121_car_pocket_v2,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 06:16:51,2026-11-21,4.0,S48,train
+1121_car_bag5,car,bag,iPhone 17 Pro Max,ios,2026-11-21 06:21:10,2026-11-21,3.5,S48,train
+1121_car_bag6,car,bag,iPhone 17 Pro Max,ios,2026-11-21 06:24:54,2026-11-21,3.3,S48,train
+1121_car_hand5,car,hand,iPhone 17 Pro Max,ios,2026-11-21 06:29:02,2026-11-21,3.4,S48,train
+1121_car_pocket3,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 06:32:50,2026-11-21,2.6,S48,train
+1121_car_hand6,car,hand,iPhone 17 Pro Max,ios,2026-11-21 10:00:57,2026-11-21,3.2,S49,train
+1121_car_pocket4,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 10:04:28,2026-11-21,3.4,S49,train
+1121_car_bag7,car,bag,iPhone 17 Pro Max,ios,2026-11-21 10:08:21,2026-11-21,3.3,S49,train
+1121_car_hand7,car,hand,iPhone 17 Pro Max,ios,2026-11-21 10:12:02,2026-11-21,3.1,S49,train
+1121_car_pocket6,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 10:15:35,2026-11-21,3.3,S49,train
+1121_car_bag8,car,bag,iPhone 17 Pro Max,ios,2026-11-21 10:19:13,2026-11-21,3.2,S49,train
+1121_car_hand8,car,hand,iPhone 17 Pro Max,ios,2026-11-21 10:22:42,2026-11-21,3.3,S49,train
+1121_car_pocket7,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 10:26:18,2026-11-21,3.2,S49,train
+1121_car_bag9,car,bag,iPhone 17 Pro Max,ios,2026-11-21 10:29:54,2026-11-21,3.2,S49,train
+1121_car_hand9,car,hand,iPhone 17 Pro Max,ios,2026-11-21 10:33:30,2026-11-21,3.3,S49,train
+1121_car_pocket8,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 10:38:33,2026-11-21,3.2,S49,train
+1121_car_bag10,car,bag,iPhone 17 Pro Max,ios,2026-11-21 10:42:47,2026-11-21,3.3,S49,train
+1121_car_hand10,car,hand,iPhone 17 Pro Max,ios,2026-11-21 10:46:33,2026-11-21,3.3,S49,train
+1121_car_hand11,car,hand,iPhone 17 Pro Max,ios,2026-11-21 11:59:19,2026-11-21,3.5,S50,train
+1121_car_pocket9,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 12:02:52,2026-11-21,3.4,S50,train
+1121_car_bag11,car,bag,iPhone 17 Pro Max,ios,2026-11-21 12:06:44,2026-11-21,3.4,S50,train
+1121_car_hand12,car,hand,iPhone 17 Pro Max,ios,2026-11-21 12:10:07,2026-11-21,3.9,S50,train
+1121_car_pocket10,car,pocket,iPhone 17 Pro Max,ios,2026-11-21 12:14:05,2026-11-21,2.2,S50,train

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>交通工具辨識</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+<nav class="nav wrap"><a href="/">上傳辨識</a><a href="/live">即時辨識</a><a href="/phone">手機網頁即時</a><a href="/about">模型成效</a></nav>
+<header class="wrap">
+  <h1>用手機感測器辨識交通工具</h1>
+  <p class="lead">上傳 Sensor Logger 的錄製檔，系統只用加速度計與陀螺儀判斷你搭的是捷運、公車還是汽車。</p>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <label id="drop" class="drop" for="file">
+      <strong>拖曳檔案到這裡，或點擊選擇</strong>
+      <span>支援 Sensor Logger 匯出的 .zip，或同時選取 Accelerometer.csv 與 Gyroscope.csv</span>
+      <span id="picked" class="picked"></span>
+    </label>
+    <input id="file" type="file" accept=".zip,.csv" multiple hidden>
+    <button id="go" class="btn" disabled>開始辨識</button>
+    <p id="status" class="status" role="status"></p>
+  </section>
+
+  <section id="results"></section>
+
+  <section class="card note">
+    <h2>使用須知</h2>
+    <ul>
+      <li>建議錄製至少 3 分鐘；系統會裁掉頭尾各 30 秒（上下車、走路的部分），至少需要約 100 秒的錄製。</li>
+      <li>請上傳 Sensor Logger 匯出的錄製，並勾選 Accelerometer 與 Gyroscope。</li>
+      <li>準確率請看專題報告的「測試集結果」；手機型號、放置位置與路況不同時，結果可能下降。</li>
+      <li>檔案只在伺服器暫存處理，辨識完成就刪除。</li>
+    </ul>
+  </section>
+</main>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

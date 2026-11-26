@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>即時辨識</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<nav class="nav wrap"><a href="/">上傳辨識</a><a href="/live">即時辨識</a><a href="/phone">手機網頁即時</a><a href="/about">模型成效</a></nav>
+<header class="wrap"><h1>即時辨識</h1>
+<p class="lead">手機上的 Sensor Logger 持續把加速度計與陀螺儀資料傳到這個網站，網站每 2.5 秒更新一次判斷。</p></header>
+<main class="wrap">
+  <section class="card" id="live">
+    <div id="liveStatus" class="status">等待手機傳資料…</div>
+    <div class="verdict"><div class="badge" id="liveBadge" style="background:#cdb893">—</div>
+      <div class="meta" id="liveMeta">還沒有資料</div></div>
+    <div id="liveBars"></div>
+    <h3>判斷紀錄（最近約 3 分鐘，每格一個視窗）</h3>
+    <div class="timeline" id="liveTl"></div>
+    <div class="legend"><span><b style="background:#5c4033"></b>捷運</span><span><b style="background:#8a5a3c"></b>公車</span><span><b style="background:#a8582a"></b>汽車</span></div>
+    <button class="btn" id="resetBtn" style="margin-top:16px">清除並重新開始</button>
+  </section>
+
+  <section class="card">
+    <h2>手機端設定（Sensor Logger）</h2>
+    <ol class="steps">
+      <li>電腦與手機連到<b>同一個 Wi-Fi</b>，並用 <code>$env:HOST="0.0.0.0"; $env:PORT=5055; python web/app.py</code> 啟動網站（PowerShell）。</li>
+      <li>Sensor Logger → Settings → <b>Data Streaming</b> → 開啟 <b>Push to HTTP</b>，網址填：<code id="pushUrl">載入中…</code></li>
+      <li>Sensor Logger 的感測器只勾 <b>Accelerometer</b> 與 <b>Gyroscope</b>，按 Start Recording。</li>
+      <li>開始後前 30 秒不辨識（排除上車的動作），約 40 秒後會出現第一個判斷，之後越穩定。</li>
+    </ol>
+    <p class="meta">如果 Windows 跳出防火牆詢問，請允許 Python 使用「私人網路」。</p>
+  </section>
+
+  <section class="card">
+    <h2>沒有手機時：示範回放</h2>
+    <p class="meta">用測試集的一筆錄製，模擬成即時資料送進來（這些錄製沒有參與訓練）。</p>
+    <select id="demoSel"><option>載入中…</option></select>
+    <select id="demoSpeed"><option value="1">原速（1 倍）</option><option value="5">5 倍速</option><option value="10" selected>10 倍速</option></select>
+    <button class="btn" id="demoBtn">開始示範</button>
+  </section>
+
+  <section class="card note"><h2>即時模式的限制</h2>
+    <ul><li>只看「過去」的資料來判斷，剛開始的準確度比較低；越久越穩定。</li>
+    <li>模型沒看過的手機、放置位置或路線，結果可能不準（參考「模型成效」頁）。</li>
+    <li>網站只在記憶體暫存，關掉網站資料就沒了。</li></ul></section>
+</main>
+<script src="{{ url_for('static', filename='live.js') }}"></script>
+</body></html>

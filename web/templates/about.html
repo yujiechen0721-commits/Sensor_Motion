@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>模型成效</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<nav class="nav wrap"><a href="/">上傳辨識</a><a href="/live">即時辨識</a><a href="/phone">手機網頁即時</a><a href="/about">模型成效</a></nav>
+<header class="wrap"><h1>模型成效</h1>
+<p class="lead">以下是模型在「測試集」上的結果。測試集是整天留出的錄製，完全沒有拿去訓練或調參。</p></header>
+<main class="wrap">
+  <section class="card">
+    <h2>測試集總結果（40 趟）</h2>
+    <table class="tbl">
+      <tr><th>視窗準確率</th><th>Macro-F1</th><th>捷運召回</th><th>公車召回</th><th>汽車召回</th><th>整趟判對</th></tr>
+      <tr><td>{{ '%.1f'|format(test.get('視窗準確率','0')|float*100) }}%</td><td>{{ '%.3f'|format(test.get('MacroF1','0')|float) }}</td>
+      <td>{{ '%.1f'|format(test.get('捷運召回','0')|float*100) }}%</td><td>{{ '%.1f'|format(test.get('公車召回','0')|float*100) }}%</td>
+      <td>{{ '%.1f'|format(test.get('汽車召回','0')|float*100) }}%</td><td>{{ '%.1f'|format(test.get('整趟準確率','0')|float*100) }}%</td></tr>
+    </table>
+    <img src="/outputs/混淆矩陣_測試.png" alt="測試集混淆矩陣" style="width:100%;margin-top:12px;border-radius:8px">
+  </section>
+  {% if rt %}<section class="card"><h2>即時辨識（只看過去資料）</h2>
+    <table class="tbl">{% for r in rt %}<tr><td>{{ r['指標'] }}</td><td>{{ '%.1f'|format(r['數值']|float*100) }}%</td></tr>{% endfor %}</table></section>{% endif %}
+  <section class="card note"><h2>方法與限制</h2>
+    <ul><li>只用手機加速度計與陀螺儀；2 秒視窗、52 個特徵、HistGradientBoosting，再把約 80 秒內的預測做時間平滑；視窗長度、模型與平滑長度都是依訓練集交叉驗證選的。</li>
+    <li>汽車的訓練資料只有 2 天；Android 手機只有捷運資料；測試集每類別只有幾天，結果會隨切分有幾個百分點的波動。</li>
+    <li>這是 baseline，實際使用時請當作參考。</li></ul></section>
+</main></body></html>
